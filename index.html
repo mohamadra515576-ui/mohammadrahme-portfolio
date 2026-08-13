@@ -99,7 +99,16 @@
 
                     <aside class="hero__portrait reveal" data-delay="2" aria-label="Portrait of Mohammad Rahme">
                         <figure class="portrait">
-                            <img src="images/headshot.webp" alt="Portrait of Mohammad Rahme" width="2048" height="2048" loading="eager" fetchpriority="high" decoding="async">
+                            <img
+                                src="images/headshot.webp"
+                                srcset="images/headshot-512.webp 512w, images/headshot-720.webp 720w, images/headshot.webp 2048w"
+                                sizes="(max-width: 520px) 72vw, (max-width: 960px) 45vw, 360px"
+                                alt="Portrait of Mohammad Rahme"
+                                width="360"
+                                height="360"
+                                loading="eager"
+                                fetchpriority="high"
+                                decoding="async">
                             <figcaption class="portrait__caption">
                                 <span>Mohammad Rahme</span>
                                 <span>Writer, on the brief since 2019</span>
